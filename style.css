@@ -1,0 +1,26 @@
+body {
+    background-color: lavender;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+#lampBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttonBox {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
